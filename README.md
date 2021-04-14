@@ -20,7 +20,7 @@ $$P(B|A) = \frac{ P(AB) } {P(A)}$$
 $$P(A)=P(A|B_{1}) P(B_{1}) + P(A|B_{2}) P(B_{2}) + ... + P(A|B_{n}) P(B_{n})$$
 3. 贝叶斯公式
 $$P(B_{i}|A) = \frac{P(A|B_{i}) P(B_{i})} {\sum_{j}^{n} P(A|B_{j})P(B_{j})}$$
-### 随机变量及其分布
+### 离散随机变量及其分布
 1. （0-1）分布
   * [伯努利实验]： https://baike.baidu.com/item/%E4%BC%AF%E5%8A%AA%E5%88%A9%E8%AF%95%E9%AA%8C/238488?fr=aladdin
 2. 二项分布
@@ -32,4 +32,6 @@ $$P(B_{i}|A) = \frac{P(A|B_{i}) P(B_{i})} {\sum_{j}^{n} P(A|B_{j})P(B_{j})}$$
   * 分布律
   $$ P(X=k) = \frac{e^{-\lambda}\lambda^k} {k!} $$
   记：$X\sim\pi(\lambda)$  其中$\lambda=np$
+### 连续随机变量及其分布
+$$F(x)=P\{X\leqx\}$$
 
