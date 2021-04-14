@@ -26,7 +26,7 @@ $$P(B_{i}|A) = \frac{P(A|B_{i}) P(B_{i})} {\sum_{j}^{n} P(A|B_{j})P(B_{j})}$$
 2. 二项分布
   * 分布律
   $$P(X=k) = C_n^kp^k(1-p)^{n-k}$$
-  记：$X\simB(n,p)$
+  记：$X\sim{B(n,p)}$
   * [n重伯努利实验]： https://baike.baidu.com/item/n%E9%87%8D%E4%BC%AF%E5%8A%AA%E5%88%A9%E8%AF%95%E9%AA%8C/238667?fr=aladdin
 3. 泊松分布
   * 分布律
