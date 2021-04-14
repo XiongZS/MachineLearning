@@ -33,5 +33,5 @@ $$P(B_{i}|A) = \frac{P(A|B_{i}) P(B_{i})} {\sum_{j}^{n} P(A|B_{j})P(B_{j})}$$
   $$ P(X=k) = \frac{e^{-\lambda}\lambda^k} {k!} $$
   记：$X\sim\pi(\lambda)$  其中$\lambda=np$
 ### 连续随机变量及其分布
-$$F(x)=P\{X\le{x}\}$$
+$$F(x)=P\lbrace{X\le{x}}\rbrace$$
 
