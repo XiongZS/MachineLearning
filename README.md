@@ -43,5 +43,7 @@ $$F(x)=P\lbrace{X\le{x}}\rbrace=\int_{-\infty}^xf(t)dt$$
 3. 标准正态分布
   即$\mu=0  \sigma=1$
   $$f(x)=\frac{1}{\sqrt{2\pi}}e^{-\frac{x^2}{2}}$$
+  * 正态分布\rightarrow标准正态分布 
+  ** 若$X\sim{\mu,\sigma^2}$,则 $Z=\frac{X-\mu}{\sigma}\sim{\Phi(\frac{x-\mu}{\sigma})}$
   
 
