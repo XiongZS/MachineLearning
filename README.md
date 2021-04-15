@@ -40,6 +40,8 @@ $$F(x)=P\lbrace{X\le{x}}\rbrace=\int_{-\infty}^xf(t)dt$$
 2. 正态分布
   $$f(x)=\frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}$$
   记$X\sim{N(\mu,\sigma^2)}$
-  
+3. 标准正态分布
+  即$\mu=0  \sigma=1$
+  $$f(x)=\frac{1}{\sqrt{2\pi}}e^{-\frac{x^2}{2}}$$
   
 
