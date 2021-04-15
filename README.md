@@ -38,7 +38,7 @@ $$F(x)=P\lbrace{X\le{x}}\rbrace=\int_{-\infty}^xf(t)dt$$
 1. 均匀分布
   当$f(x)=\frac{1}{b-a}$时，称随机事件X在a,b上均匀分布，记为：$X\sim{U(a,b)}$
 2. 正态分布
-  $$f(x)=\frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{{x-\mu}^2}{2\sigma^2}}$$
+  $$f(x)=\frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}$$
   
   
 
