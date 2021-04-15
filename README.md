@@ -34,4 +34,11 @@ $$P(B_{i}|A) = \frac{P(A|B_{i}) P(B_{i})} {\sum_{j}^{n} P(A|B_{j})P(B_{j})}$$
   记：$X\sim\pi(\lambda)$  其中$\lambda=np$
 ### 连续随机变量及其分布
 $$F(x)=P\lbrace{X\le{x}}\rbrace=\int_{-\infty}^xf(t)dt$$
+  f(t)成为概率密度函数
+1. 均匀分布
+  当$f(x)=\frac{1}{b-a}$时，称随机事件X在a,b上均匀分布，记为：$X\sim{U(a,b)}$
+2. 正态分布
+  $$f(x)=\frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{{x-\mu}^2}{2\sigma^2}}$$
+  
+  
 
