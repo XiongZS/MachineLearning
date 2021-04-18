@@ -53,3 +53,9 @@ $$F(x,y)=P\lbrace{(X<x)UP(Y<y)}\rbrace=P\lbrace{X<x,Y<y}\rbrace$$
 ### 连续型二维随机变量
 $$F(x,y)=\int_{-\infty}^x\int_{-infty}^yf(\mu,\nu)d\mu{d\nu}$$
 函数$f(x,y)$为连续型二维随机变量(X,Y)的联合概率密度
+### 边缘分布
+
+### 条件分布
+
+
+
