@@ -47,4 +47,7 @@ $$F(x)=P\lbrace{X\le{x}}\rbrace=\int_{-\infty}^xf(t)dt$$
     若$X\sim{\mu,\sigma^2}$,则 $Z=\frac{X-\mu}{\sigma}\sim{\Phi(\frac{x-\mu}{\sigma})}$
   * 二项分布与正态分布
     $X\sim{B(n,p)}$,当n足够大时，有X近似服从正态分布$X\sim{N(np,np(1-p))}$
+### （X,Y）二维随机变量
+$$F(x,y)=P\{(X<x)UP(Y<y)\}=P\{X<x,Y<y\}$$
+次二元函数成为随机变量(X,Y)的联合分布函数
 
