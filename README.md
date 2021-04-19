@@ -54,7 +54,10 @@ $$F(x,y)=P\lbrace{(X<x)UP(Y<y)}\rbrace=P\lbrace{X<x,Y<y}\rbrace$$
 $$F(x,y)=\int_{-\infty}^x\int_{-infty}^yf(\mu,\nu)d\mu{d\nu}$$
 函数$f(x,y)$为连续型二维随机变量(X,Y)的联合概率密度
 ### 边缘分布
-
+在多维随机变量中，将$X,Y$各自的分布称为边缘分布函数，分别记为$F_X,F_Y$
+$$F_X=P\lbrace{X\leq{x}}\rbrace=P\lbrace{X\leq{x},Y<\infty}\rbrace=F(x,\infty)$$
+### 边缘概率密度
+$$f_X(x)=\int_{-\infty}^\infty{f(x,y)}dy$$
 ### 条件分布
 
 
