@@ -62,5 +62,10 @@ $$f_X(x)=\int_{-\infty}^\infty{f(x,y)}dy$$
 * 离散条件分布律
   $$P(X=x_i|Y=y_j)=\frac{P(X=x_i,Y=y_j)}{P(Y=y_j)}=\frac{P_{ij}}{P_{.j}}$$
   称为在$Y=y_j$的条件下随机变量X的条件分布律
+* 条件概率密度
+  $$f_{X|Y}(x|y)=\frac{f(x,y)}{f_Y(y)}$$
+* 条件分布函数
+  $$F_{X|Y}(x|y)=\int_{-\infty}^x\frac{f(t,y)}{f_Y(y)}dt$$
+  在$Y=y$条件下$X$的条件分布函数
 
 
