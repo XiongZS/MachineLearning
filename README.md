@@ -59,6 +59,8 @@ $$F_X=P\lbrace{X\leq{x}}\rbrace=P\lbrace{X\leq{x},Y<\infty}\rbrace=F(x,\infty)$$
 ### 边缘概率密度
 $$f_X(x)=\int_{-\infty}^\infty{f(x,y)}dy$$
 ### 条件分布
-
+* 离散条件分布律
+  $$P(X=x_i|Y=y_j)=\frac{P(X=x_i,Y=y_j)}{P(Y=y_j)}=\frac{P_{ij}}{P_{.j}}$$
+  称为在$Y=y_j$的条件下随机变量X的条件分布律
 
 
