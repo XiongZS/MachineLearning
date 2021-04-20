@@ -67,5 +67,14 @@ $$f_X(x)=\int_{-\infty}^\infty{f(x,y)}dy$$
 * 条件分布函数
   $$F_{X|Y}(x|y)=\int_{-\infty}^x\frac{f(t,y)}{f_Y(y)}dt$$
   在$Y=y$条件下$X$的条件分布函数
+  ### 离散型随机变量的数学期望
+    对离散型随机变量$X$的分布律为$P\lbrace{X=x_k}\rbrace=p_k$，若级数$\Sigma_{k=1}^\infty{x_kp_k}$绝对收敛，
+    则随机变量的数学期望记为：
+    $$E(X)=\Sigma_{k=1}^\infty{x_kp_k}$$
+    
+    
+    
+    
+    
 
 
