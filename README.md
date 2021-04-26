@@ -76,6 +76,8 @@ $$f_X(x)=\int_{-\infty}^\infty{f(x,y)}dy$$
   对连续型随机变量$X$，其概率密度函数为$f(x)$，若积分$\int_{-\infty}^\infty{xf(x)dx}$绝对收敛，
   则连续型随机变量$X$的数学期望记为：
   $$E(X)=\int_{-\infty}^\infty{xf(x)dx}$$
+### 离散型随机变量的方差
+  $$D(X)=\Sigma_{k=1}^{\infty}[x_k-E(X)]^2p_k$$
     
     
     
