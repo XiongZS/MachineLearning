@@ -81,6 +81,12 @@ $$f_X(x)=\int_{-\infty}^\infty{f(x,y)}dy$$
 ### 连续型随机变量的方差
   $$D(X)=\int_{-\infty}^{\infty}[x-E(X)]^2f(x)dx$$
   化简式：$D(X)=E(X^2)-[E(X)]^2$
+### 协方差与相关系数
+  称$E\lbrace{(X-E(X))(Y-E(Y))}\rbrace$为随机变量$X,Y$的协方差，记为$Cov(X,Y)$,即
+  $$Cov(X,Y)=E(XY)-E(X)E(Y)$$
+  随机变量$X,Y$的相关系数为：
+  $$\rho_{XY}=\frac{Cov(X,Y)}{\sqrt{D(X)}\sqrt{D(Y)}}$$
+  相关系数用于衡量两个随机变量之间的线性相关性
     
     
     
