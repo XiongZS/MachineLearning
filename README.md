@@ -78,7 +78,9 @@ $$f_X(x)=\int_{-\infty}^\infty{f(x,y)}dy$$
   $$E(X)=\int_{-\infty}^\infty{xf(x)dx}$$
 ### 离散型随机变量的方差
   $$D(X)=\Sigma_{k=1}^{\infty}[x_k-E(X)]^2p_k$$
-    
+### 连续型随机变量的方差
+  $$D(X)=\int_{-\infty}^{\infty}[x-E(X)]^2f(x)dx$$
+  化简式：$D(X)=E(X^2)-[E(X)]^2$
     
     
     
