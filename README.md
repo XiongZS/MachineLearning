@@ -87,6 +87,15 @@ $$f_X(x)=\int_{-\infty}^\infty{f(x,y)}dy$$
   随机变量$X,Y$的相关系数为：
   $$\rho_{XY}=\frac{Cov(X,Y)}{\sqrt{D(X)}\sqrt{D(Y)}}$$
   相关系数用于衡量两个随机变量之间的线性相关性
+### 矩
+  $X$的$k$阶原点矩（若存在）：
+  $$E(X^k)$$
+  $X$的$k$阶中心矩（若存在）：
+  $$E\lbrace{[X-E(X)]^k}\rbrace$$
+  $X$和$Y$的$k+l$阶混合矩（若存在）：
+  $$E(X^kY^l)$$
+  $X$和$Y$的$k+l$阶混合中心矩（若存在）：
+  $$E\lbrace{[X-E(X)]^k[Y-E(Y)]^l}\rbrace$$
     
     
     
