@@ -99,6 +99,7 @@ $$f_X(x)=\int_{-\infty}^\infty{f(x,y)}dy$$
 ### 弱大数定律
   设$X_1,X_2,...$是相互独立，服从同一分布的随机变量序列，且具有数学期望$E(X_k)=\mu,(K=1,2,...)$,做前$n$个变量的算数平均$\frac{1}{n}\Sigma_{k=1}^nX_k$,则对于任意的$\epsilon>0$,有
   $$\lim\limits_{n\to\infty}P\lbrace{|\frac{1}{n}\Sigma_{k=1}^nX_k-\mu|<\epsilon}\rbrace=1$$
+  意义：对于独立同分布且具有相同均值$\mu$的随机变量$X_1,X_2,....,X_n$，当$n$很大时，它们的算数平均数$\frac{1}{n}\Sigma_{k=1}^nX_k$很接近与$\mu$。$\to$ 可以使用样本的均值去估计总体的均值。
     
     
     
