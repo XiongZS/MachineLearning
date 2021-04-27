@@ -98,7 +98,7 @@ $$f_X(x)=\int_{-\infty}^\infty{f(x,y)}dy$$
   $$E\lbrace{[X-E(X)]^k[Y-E(Y)]^l}\rbrace$$
 ### 弱大数定律
   设$X_1,X_2,...$是相互独立，服从同一分布的随机变量序列，且具有数学期望$E(X_k)=\mu,(K=1,2,...)$,做前$n$个变量的算数平均$\frac{1}{n}\Sigma_{k=1}^nX_k$,则对于任意的$\epsilon>0$,有
-  $$\lim\limits_{n\to\infty}P\Lbrace{|\frac{1}{n}\Sigma_{k=1}^nX_k-\mu|<\epsilon}\Rbrace=1$$
+  $$\lim\limits_{n\to\infty}P\lbrace{|\frac{1}{n}\Sigma_{k=1}^nX_k-\mu|<\epsilon}\rbrace=1$$
     
     
     
