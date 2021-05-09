@@ -107,8 +107,11 @@ $$f_X(x)=\int_{-\infty}^\infty{f(x,y)}dy$$
 ### 独立同分布的中心极限定理
   $n$个独立同分布的随机变量之和的分布近似于正态分布，$n$愈大，此种近似程度愈好。
   对于均值为$\mu$，方差为$\sigma_2>0$的独立同分布的随机变量$X_1,X_2,...,X_n$之和$\Sigma_{i=1}^nX_i$，当$n$足够大时，有
-  $$\frac{\Sigma_{i=1}^nX_i-n\mu}{\sqrt{n}\sigma}~N(0,1)$$
-  
+  $$\frac{\Sigma_{i=1}^nX_i-n\mu}{\sqrt{n}\sigma}\sim{N(0,1)}$$
+### Lyapunov定理
+### 二项分布近似正态分布
+  * 高尔顿板实验
+
     
 
 
