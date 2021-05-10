@@ -121,5 +121,11 @@ $$f_X(x)=\int_{-\infty}^\infty{f(x,y)}dy$$
   $$E(\frac{1}{n}\Sigma_{i=1}^nX_i)=\mu$$
   * 样本均值的方差
   $$D(\overline{X})=\frac{\sigma^2}{n}$$
+  * 样本方差
+  $$S^2=\frac{1}{n-1}\Sigma_{i=1}^n(X_i-\overline{X}^2)$$
+  样本方差是总体方差的无偏估计
+### 样本分布之$\Chi^2$分布
+
+
 
 
