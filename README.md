@@ -111,7 +111,15 @@ $$f_X(x)=\int_{-\infty}^\infty{f(x,y)}dy$$
 ### Lyapunov定理
 ### 二项分布近似正态分布
   * 高尔顿板实验
-
-    
+### 简单随机抽样
+  总体中每个个体被抽中的概率都相等
+  * 样本均值
+  $$\overline{X}=\frac{1}{n}\Sigma_{i=1}^nX_i$$
+  * 样本均值观察值
+  $$\overline{x}=\frac{1}{n}\Sigma_{i=1}^nx_i$$
+  样本均值是总体均值的无偏估计量--样本均值的期望等于总体均值
+  $$E(\frac{1}{n}\Sigma_{i=1}^nX_i)=\mu$$
+  * 样本均值的方差
+  $$D(\overline{X})=\frac{\sigma^2}{n}$$
 
 
