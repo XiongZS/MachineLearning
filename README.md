@@ -128,6 +128,25 @@ $$f_X(x)=\int_{-\infty}^\infty{f(x,y)}dy$$
   设$X_1,X_2,...,X_n$是来自总体$N(0,1)$的样本，则称统计量
   $$\chi^2=X_1^2+X_2^2+...+X_n^2$$
   服从自由度为$n$的卡方分布，记为：$\chi^2\sim{\chi^2(n)}$
+### $t$分布-student分布
+  设$X\sim{N(0,1)},Y\sim{\chi^2(n)}$,且$X,Y$相互独立，则称随机变量$t=\frac{X}{\sqrt{\frac{Y}{n}}}$服从自由度为$n$的$t$分布。记为：$t\sim{t(n)}$.
+### F分布
+  设$U\sim{\chi^2(n_1)},V\sim{\chi^2(n_2)}$,且$U,V$相互独立，则称随机变量$F=\frac{U/n_1}{V/n_2}$服从自由度为$(n_1,n_2)$的F分布。记为：$F\sim{F(n_1,n_2)}$.
+  * 对于F分布上的$\alpha$分位点，有
+  $$F_{1-\alpha}(n_1,n_2)=\frac{1}{F_\alpha(n_2,n_1)}$$
+### 正态总体的抽样分布
+  设$X_1,X_2,...,X_n$是来自正态总体$N(\mu,\sigma^2)$,$\overline{X}$是样本均值，$S^2$是样本方差，则有：
+  * $(1) \overline{X}\sim{N(\mu,\frac{\sigma^2}{n})}$
+  * $(2) \frac{(n-1)S^2}{\sigma^2}\sim{\chi^2(n-1)}$
+  * $(3) \overline{X}$与$\chi^2$相互独立
+  * $(4) \frac{\overline{X}-\mu}{\frac{S}{\sqrt{n}}}\sim{t(n-1)}$
 
+
+
+  
+  
+  
+  
+  
 
 
