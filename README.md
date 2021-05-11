@@ -138,9 +138,12 @@ $$f_X(x)=\int_{-\infty}^\infty{f(x,y)}dy$$
   设$X_1,X_2,...,X_n$是来自正态总体$N(\mu,\sigma^2)$,$\overline{X}$是样本均值，$S^2$是样本方差，则有：
   * $(1) \overline{X}\sim{N(\mu,\frac{\sigma^2}{n})}$
   * $(2) \frac{(n-1)S^2}{\sigma^2}\sim{\chi^2(n-1)}$
-  * $(3) \overline{X}$与$\chi^2$相互独立
+  * $(3) \overline{X}$与$S^2$相互独立
   * $(4) \frac{\overline{X}-\mu}{\frac{S}{\sqrt{n}}}\sim{t(n-1)}$
-
+### 两个正态总体的样本均值与样本方差
+  设$X_1,X_2,....,X_{n_1}$与$Y_1,Y_2,...,Y_{n_2}$分别来自正态总体$N(\mu_1,\sigma_1^2),N(\mu_2,\sigma_2^2)$的样本，且这两个样本相互独立。其样本均值分别为$\overline{X},\overline{Y}$,
+  其方差分别为$S_1^2,S_2^2$,则有：
+  * $\frac{S_1^2/S_2^2}{\sigma_1^2/\sigma_2^2}\sim{F(n_1-1,n_2-1)}$
 
 
   
