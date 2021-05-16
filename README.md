@@ -152,7 +152,7 @@ $$f_X(x)=\int_{-\infty}^\infty{f(x,y)}dy$$
 ### 置信区间--名词解析
   * 置信区间(confidence interval):用来估计总体参数真实值的一个区间，通常形式：估计值$\pm$误差界限
   * 误差界限(margin of error):估计值的最大误差，使用E表示
-  * 置信度(confidence level): $1-alpha$
+  * 置信度(confidence level): $1-\alpha$
   * 置信水平：$\alpha$
   * 临界值(critical values):$Z_{\alpha{/2}}$
   * 置信区间边界(confidence interval limits):置信上限，置信下限
