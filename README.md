@@ -144,7 +144,18 @@ $$f_X(x)=\int_{-\infty}^\infty{f(x,y)}dy$$
   设$X_1,X_2,....,X_{n_1}$与$Y_1,Y_2,...,Y_{n_2}$分别来自正态总体$N(\mu_1,\sigma_1^2),N(\mu_2,\sigma_2^2)$的样本，且这两个样本相互独立。其样本均值分别为$\overline{X},\overline{Y}$,
   其方差分别为$S_1^2,S_2^2$,则有：
   * $\frac{S_1^2/S_2^2}{\sigma_1^2/\sigma_2^2}\sim{F(n_1-1,n_2-1)}$
-
+### 点估计--置信区间
+  * 中心极限定理：样本比例$\hat{p}$近似正态分布$N(p,p(1-p)/n)$
+  * 样本比例落在尾部的概率非常小
+  * 样本比例落在阴影尾部的总概率为$\alpha$
+  * 样本比例落在中间部分的概率为$1-\alpha$
+### 置信区间--名词解析
+  * 置信区间(confidence interval):用来估计总体参数真实值的一个区间，通常形式：估计值$\pm$误差界限
+  * 误差界限(margin of error):估计值的最大误差，使用E表示
+  * 置信度(confidence level): $1-alpha$
+  * 置信水平：$\alpha$
+  * 临界值(critical values):$Z_{\alpha{/2}}$
+  * 置信区间边界(confidence interval limits):置信上限，置信下限
 
   
   
